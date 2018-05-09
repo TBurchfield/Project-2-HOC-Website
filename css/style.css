@@ -49,6 +49,10 @@ p {
   display: inline;
 }
 
+#hoverview {
+  transition: height 0.5s;
+}
+
 #hoverview:hover #overtxt {
   display: none;
 }
