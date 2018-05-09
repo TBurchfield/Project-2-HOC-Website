@@ -45,6 +45,18 @@ p {
   }
 }
 
+#hoverview:hover #undertxt {
+  display: inline;
+}
+
+#hoverview:hover #overtxt {
+  display: none;
+}
+
+#hoverview #undertxt {
+  display:none
+}
+
 .icon-block {
   padding: 0 15px;
 }
